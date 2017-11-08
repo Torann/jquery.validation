@@ -2,13 +2,17 @@
 
 Simple form validation using the Laravel validation syntax.
 
-## Data Tags
+## Getting started
 
-### `data-validate=":rules"`
+The form containing the inputs that need validation must inlcude the class `js-validate`. This helpers cut down some on the walking the DOM.
+
+### Data Tags
+
+#### `data-validate=":rules"`
 
 This attribute is on the form element that is being validated. It contains the rules used to validate.
 
-### `data-validate-msg=":rule"`
+#### `data-validate-msg=":rule"`
 
 This attribute is attached the the tag that is used inside of the input group and contains the translated values for the errors. The attributes value indicated the rule that failed.
 
